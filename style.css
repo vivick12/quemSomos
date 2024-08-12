@@ -118,7 +118,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-    background-color: #111;
+    background-color: #000000;
 }
 
 .contact-item {
@@ -131,75 +131,3 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #000;
-}
-
-footer p {
-    margin: 0;
-    font-size: 14px;
-}
-
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a img {
-    width: 20px;
-    margin: 0 10px;
-}
-
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 20px;
-    background-color: #000;
-    text-align: left;
-    color: white;
-}
-
-.footer-location, .footer-addresses {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.location-item, .address-item {
-    margin: 0 20px;
-}
-
-.location-item img, .address-item img {
-    width: 30px;
-    margin-bottom: 10px;
-}
-
-.location-item span, .address-item h4 {
-    font-size: 16px;
-    display: block;
-    margin-top: 10px;
-}
-
-.footer-addresses p {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.social-icons a img {
-    width: 20px;
-    margin: 0 10px;
-}
-
-footer p {
-    margin: 20px 0 0;
-    font-size: 14px;
-    color: white;
-}
