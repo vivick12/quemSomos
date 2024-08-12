@@ -130,4 +130,91 @@ header nav ul li a {
     display: block;
     margin-bottom: 10px;
 }
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+    background-color: #000000;
+}
 
+.contact-item {
+    text-align: center;
+    flex: 1;
+}
+
+
+
+.location-item {
+    margin-bottom: 20px;
+}
+
+.location-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.location-item span {
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-info {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footer-info h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-divider {
+    border: 0.5px solid #444;
+    margin: 20px 0;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-social a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-bottom-text {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
