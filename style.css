@@ -101,7 +101,7 @@ header nav ul li a {
 
 .about {
     padding: 40px 20px;
-    background-color: #0a0a0a;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -117,48 +117,37 @@ header nav ul li a {
 .contacts {
     display: flex;
     justify-content: center;
-    padding: 40px 20px;
-    background-color: #000000;
-}
-
-.contact-item {
-    text-align: center;
-    margin: 0 20px;
-}
-
-.contact-item span {
-    display: block;
-    margin-bottom: 10px;
-}
-.contacts {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 40px 20px;
+    gap: 80px; /* Aumenta o espaçamento entre os itens de contato */
+    padding: 70px 0; /* Ajusta o padding para alinhar os itens verticalmente */
     background-color: #000000;
 }
 
 .contact-item {
     text-align: center;
     flex: 1;
+    max-width: 180px; /* Define uma largura máxima para os itens de contato */
 }
 
-
-
-.location-item {
-    margin-bottom: 20px;
-}
-
-.location-item img {
-    width: 50px;
+.contact-item img {
+    width: 90px;
     margin-bottom: 10px;
 }
 
-.location-item span {
+.contact-item span {
     display: block;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
+
+.contact-item span:last-child {
+    font-size: 14px; /* Ajusta o tamanho da fonte dos números de telefone */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas dos números de telefone */
+}
+
+
+
+
 
 .footer-container {
     display: flex;
@@ -174,7 +163,8 @@ header nav ul li a {
 }
 
 .footer-logo img {
-    width: 100px;
+    width: 300px;
+    margin-right: 180px;
 }
 
 .footer-info {
@@ -186,6 +176,7 @@ header nav ul li a {
     margin: 0;
     font-size: 16px;
 }
+
 
 .footer-info p {
     margin: 5px 0;
@@ -199,7 +190,7 @@ header nav ul li a {
 
 .footer-divider {
     border: 0.5px solid #444;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .footer-social {
@@ -211,6 +202,11 @@ header nav ul li a {
 .footer-social a {
     color: #fff;
     font-size: 24px;
+}
+
+.iconssimg img{
+ margin-top: 0%;
+ margin-bottom: 10px;
 }
 
 .footer-bottom-text {
